@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Demo App</string>
 
-    <string name="web_client_id" translatable="false">953529146221-v6kuh0434o7t4b97fkos8lk0hnqn5vq1.apps.googleusercontent.com</string>
+    <string name="web_client_id" translatable="false">xxxxxxxx..place your web client id here</string>
 
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
