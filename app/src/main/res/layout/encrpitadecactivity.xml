@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/toolbar"
+        android:visibility="visible"></include>
+    <LinearLayout
+        android:id="@+id/ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/text_color_uper"
+            >
+
+            <EditText
+                android:id="@+id/et_noramal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/menu_noraml"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:singleLine="true"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/text_color_uper"
+            >
+
+
+
+            <EditText
+                android:id="@+id/et_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/menu_secret"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:singleLine="true"
+                android:textSize="15sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/tv_output"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="@color/black"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        >
+        <Button
+            android:id="@+id/btnencp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:elevation="5dp"
+            android:text="@string/menu_encryption"
+            android:textColor="#fff"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            />
+        <Button
+            android:id="@+id/btndec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@drawable/button_blue"
+            android:elevation="5dp"
+            android:text="@string/menu_decrypt"
+            android:textColor="#fff"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+</LinearLayout>

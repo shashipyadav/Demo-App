@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demo App</string>
+    <string name="menu_save">أضف</string>
+    <string name="menu_clear">واضح</string>
+
+    <string name="menu_task"> اسم المهمة</string>
+    <string name="menu_date">لتاريخ و الوقت</string>
+
+    <string name="delet">حذف</string>
+    <string name="delete_message">هل أنت متأكد أنك تريد حذف هذه المهمة؟</string>
+
+    <string name="ok">حسنا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="menu_noraml">Enter normal text</string>
+    <string name="menu_secret">Enter secret key </string>
+    <string name="menu_encryption">تشفير</string>
+    <string name="menu_decrypt">فك تشفير</string>
+
+    <string name="todo">لكى يفعل</string>
+    <string name="Encryption">التشفير</string>
+    <string name="Stopwatch">ساعة التوقيف</string>
+    <string name="Language">إلغاء </string>
+    <string name="home">Home </string>
+    <string name="logout">تسجيل خروج </string>
+    <string name="alert">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+
+</resources>
